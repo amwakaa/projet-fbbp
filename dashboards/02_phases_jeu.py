@@ -1,3 +1,5 @@
+from pathlib import Path as _Path
+_DATA = _Path(__file__).resolve().parent.parent / "data"
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -48,7 +50,7 @@ def minute_to_period(minute):
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/03_matches_phases.csv')
+    df = pd.read_csv((_DATA / "03_matches_phases.csv"))
     df['period'] = pd.Categorical(df['period'], categories=PERIOD_ORDER, ordered=True)
     df['period_idx'] = df['period'].map({p: i for i, p in enumerate(PERIOD_ORDER)})
     df_fbbp = df[df['team'] == 'FBBP'].copy().reset_index(drop=True)
@@ -56,7 +58,7 @@ def load_data():
     df_fbbp['resultat']   = df_fbbp['match_id'].map(lambda x: MATCH_INFO[x][0])
     df_fbbp['adversaire'] = df_fbbp['match_id'].map(lambda x: MATCH_INFO[x][1])
 
-    ev = pd.read_csv('../data/04_matches_events.csv')
+    ev = pd.read_csv((_DATA / "04_matches_events.csv"))
     ev['minute']     = ev['minute'].astype(int)
     ev['period']     = ev['minute'].apply(minute_to_period)
     ev['period_idx'] = ev['period'].map({p: i for i, p in enumerate(PERIOD_ORDER)})

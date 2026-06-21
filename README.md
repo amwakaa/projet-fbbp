@@ -1,5 +1,9 @@
 # ⚽ Analyse de performance — FBBP (National)
 
+[![Démo en ligne](https://img.shields.io/badge/▶_Démo_en_ligne-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://projet-fbbp.streamlit.app)
+
+> ▶️ **[Explorer les tableaux de bord en ligne ↗](https://projet-fbbp.streamlit.app)** — directement dans le navigateur, sans rien installer.
+
 Projet personnel d'**analyse de la performance football** à partir de **données réelles Wyscout** d'un club de **National** (Football Bourg-en-Bresse Péronnas 01), sur 5 matchs de la saison 2025/2026.
 
 L'objectif : transformer de la donnée de match brute en **tableaux de bord exploitables par un staff** — lecture tactique, intensité du pressing, qualité des occasions, profils individuels — pour appuyer la préparation des matchs et le suivi de performance.
@@ -41,6 +45,11 @@ Clé de jointure commune : `match_id` (ex. `FBBP_ORL_20260220`).
 - **Phases de jeu** — lecture par tranches de 15 min (zones de domination / ruptures)
 - **Analyse joueur** — profilage individuel (anonymisé)
 - **Heatmap équipe** — répartition de l'activité
+
+## 📓 Notebooks (rendus directement sur GitHub)
+
+- [chap1.ipynb](notebooks/chap1.ipynb) · [chap2.ipynb](notebooks/chap2.ipynb) — analyses exploratoires
+- [player_deep_dive.ipynb](notebooks/player_deep_dive.ipynb) — focus sur un profil joueur
 
 ## 🔍 Exemples d'analyses
 

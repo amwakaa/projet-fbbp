@@ -1,3 +1,5 @@
+from pathlib import Path as _Path
+_DATA = _Path(__file__).resolve().parent.parent / "data"
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -62,11 +64,11 @@ POSTES = {
 
 @st.cache_data
 def load_data():
-    df_matches = pd.read_csv('../data/01_matches_summary.csv')
-    df_team    = pd.read_csv('../data/02_teams_stats.csv')
-    df_players = pd.read_csv('../data/07_players_stats.csv')
-    df_phases  = pd.read_csv('../data/03_matches_phases.csv')
-    df_events  = pd.read_csv('../data/04_matches_events.csv')
+    df_matches = pd.read_csv((_DATA / "01_matches_summary.csv"))
+    df_team    = pd.read_csv((_DATA / "02_teams_stats.csv"))
+    df_players = pd.read_csv((_DATA / "07_players_stats.csv"))
+    df_phases  = pd.read_csv((_DATA / "03_matches_phases.csv"))
+    df_events  = pd.read_csv((_DATA / "04_matches_events.csv"))
     df_events['minute'] = df_events['minute'].astype(int)
     df_phases['period'] = pd.Categorical(df_phases['period'], categories=PERIOD_ORDER, ordered=True)
     df_players['poste'] = df_players['player'].map(lambda x: POSTES.get(x, 'Inconnu'))

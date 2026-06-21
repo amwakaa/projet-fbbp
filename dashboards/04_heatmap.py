@@ -1,3 +1,5 @@
+from pathlib import Path as _Path
+_DATA = _Path(__file__).resolve().parent.parent / "data"
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -46,7 +48,7 @@ MIN_HEATMAP = 180
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/07_players_stats.csv')
+    df = pd.read_csv((_DATA / "07_players_stats.csv"))
     df['resultat']   = df['match_id'].map(lambda x: MATCH_INFO[x][0])
     df['adversaire'] = df['match_id'].map(lambda x: MATCH_INFO[x][1])
     df['journee']    = df['match_id'].map(lambda x: MATCH_INFO[x][2])
@@ -266,7 +268,7 @@ with tab3:
 
     @st.cache_data
     def load_phases():
-        df_p = pd.read_csv('../data/03_matches_phases.csv')
+        df_p = pd.read_csv((_DATA / "03_matches_phases.csv"))
         PERIOD_ORDER = ['1-15', '16-30', '31-45+', '46-60', '61-75', '76-90+']
         df_p['period'] = pd.Categorical(df_p['period'], categories=PERIOD_ORDER, ordered=True)
         return df_p, PERIOD_ORDER

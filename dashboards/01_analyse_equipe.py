@@ -1,3 +1,5 @@
+from pathlib import Path as _Path
+_DATA = _Path(__file__).resolve().parent.parent / "data"
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -24,7 +26,7 @@ AXIS = dict(tickfont=dict(color='#333333'), title_font=dict(color='#333333'), gr
 
 @st.cache_data
 def load_data():
-    df_raw = pd.read_csv('../data/01_matches_summary.csv').sort_values('round').reset_index(drop=True)
+    df_raw = pd.read_csv((_DATA / "01_matches_summary.csv")).sort_values('round').reset_index(drop=True)
 
     def get_fbbp_stats(row):
         if row['home_team'] == 'FBBP':
@@ -65,7 +67,7 @@ def load_data():
     df['xg_per_shot'] = (df['xg_fbbp'] / df['tirs_fbbp']).round(3)
     df['label']       = df['journee'] + ' · ' + df['adversaire'] + ' · ' + df['lieu'] + ' · ' + df['score']
 
-    df_raw_team  = pd.read_csv('../data/02_teams_stats.csv')
+    df_raw_team  = pd.read_csv((_DATA / "02_teams_stats.csv"))
     df_team_fbbp = df_raw_team[df_raw_team['team'] == 'FBBP'].copy().reset_index(drop=True)
     df_team_adv  = df_raw_team[df_raw_team['team'] != 'FBBP'].copy().reset_index(drop=True)
 

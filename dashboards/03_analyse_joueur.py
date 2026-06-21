@@ -1,3 +1,5 @@
+from pathlib import Path as _Path
+_DATA = _Path(__file__).resolve().parent.parent / "data"
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -54,7 +56,7 @@ MIN_COMPARISON = 180
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/07_players_stats.csv')
+    df = pd.read_csv((_DATA / "07_players_stats.csv"))
     df['resultat']   = df['match_id'].map(lambda x: MATCH_INFO[x][0])
     df['adversaire'] = df['match_id'].map(lambda x: MATCH_INFO[x][1])
     df['journee']    = df['match_id'].map(lambda x: MATCH_INFO[x][2])
@@ -73,7 +75,7 @@ def load_data():
     df['xg_p90']           = (df['xg']               / df['minutes'] * 90).round(3)
     df['xa_p90']           = (df['xa']               / df['minutes'] * 90).round(3)
 
-    ev = pd.read_csv('../data/04_matches_events.csv')
+    ev = pd.read_csv((_DATA / "04_matches_events.csv"))
     ev['minute'] = ev['minute'].astype(int)
     return df, ev
 
