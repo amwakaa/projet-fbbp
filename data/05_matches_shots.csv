@@ -1,0 +1,101 @@
+match_id,team,player_number,player,minute,shot_type,result,xg,psxg,inside_box,shot_zone
+FBBP_ORL_20260220,FBBP,9,Player_11,60,right_foot,blocked,0.13,,yes,box
+FBBP_ORL_20260220,FBBP,17,Player_44,71,right_foot,blocked,0.02,,no,outside_box
+FBBP_ORL_20260220,FBBP,17,Player_44,85,left_foot,off_target,0.02,,no,outside_box
+FBBP_ORL_20260220,FBBP,2,Player_72,85,right_foot,blocked,0.01,,no,outside_box
+FBBP_ORL_20260220,FBBP,17,Player_44,90,right_foot,off_target,0.01,,no,outside_box
+FBBP_ORL_20260220,Orleans,19,Player_62,1,header,off_target,0.08,,no,outside_box
+FBBP_ORL_20260220,Orleans,7,Player_23,35,right_foot,off_target,0.08,0.02,no,outside_box
+FBBP_ORL_20260220,Orleans,21,Player_46,51,right_foot,on_target,0.02,0.03,no,outside_box
+FBBP_ORL_20260220,Orleans,21,Player_46,59,left_foot,off_target,0.01,,no,outside_box
+FBBP_ORL_20260220,Orleans,10,Player_26,66,right_foot,on_target,0.4,,yes,box
+FBBP_ORL_20260220,Orleans,5,Player_52,69,left_foot,goal,0.44,0.57,yes,box
+FBBP_ORL_20260220,Orleans,19,Player_62,83,right_foot,goal,0.18,0.16,yes,box
+FBBP_ORL_20260220,Orleans,22,Player_34,86,right_foot,goal,0.25,0.78,yes,box
+FBBP_ROU_20260306,FBBP,10,Player_33,3,right_foot,on_target,0.05,0.02,no,outside_box
+FBBP_ROU_20260306,FBBP,9,Player_11,15,left_foot,on_target,0.15,,yes,box
+FBBP_ROU_20260306,FBBP,28,Player_65,34,left_foot,blocked,0.01,,no,outside_box
+FBBP_ROU_20260306,FBBP,25,Player_61,42,left_foot,goal,0.19,0.19,no,outside_box
+FBBP_ROU_20260306,FBBP,9,Player_11,48,right_foot,on_target,0.01,,yes,box
+FBBP_ROU_20260306,FBBP,9,Player_11,53,right_foot,on_target,0.13,,yes,box
+FBBP_ROU_20260306,FBBP,10,Player_33,65,right_foot,goal,0.01,0.01,no,outside_box
+FBBP_ROU_20260306,FBBP,9,Player_11,69,header,goal,0.15,0.56,yes,box
+FBBP_ROU_20260306,FBBP,14,Player_16,82,header,off_target,0.05,,yes,box
+FBBP_ROU_20260306,FBBP,20,Player_68,90,right_foot,goal,0.32,0.77,yes,box
+FBBP_ROU_20260306,Rouen,21,Player_01,3,right_foot,off_target,0.03,,no,outside_box
+FBBP_ROU_20260306,Rouen,21,Player_01,9,right_foot_after_corner,goal,0.4,0.71,yes,box
+FBBP_ROU_20260306,Rouen,27,Player_30,23,right_foot,blocked,0.22,,yes,box
+FBBP_ROU_20260306,Rouen,24,Player_25,33,right_foot,off_target,0.03,,no,outside_box
+FBBP_ROU_20260306,Rouen,26,Player_18,62,right_foot,on_target,0.02,0.01,no,outside_box
+FBBP_ROU_20260306,Rouen,27,Player_30,87,right_foot,blocked,0.49,,yes,box
+FBBP_ROU_20260306,Rouen,27,Player_30,90,header,blocked,0.35,,yes,box
+FBBP_ROU_20260306,Rouen,21,Player_01,90,right_foot_after_corner,blocked,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,20,Player_68,2,header_after_corner,blocked,0.23,,yes,box
+FBBP_SBR_20260321,FBBP,20,Player_68,19,header,blocked,0.01,,yes,box
+FBBP_SBR_20260321,FBBP,28,Player_65,20,left_foot,off_target,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,20,Player_68,23,right_foot,off_target,0.1,,yes,box
+FBBP_SBR_20260321,FBBP,9,Player_11,25,left_foot,on_target,0.05,0.02,yes,box
+FBBP_SBR_20260321,FBBP,9,Player_11,32,header,blocked,0.06,,yes,box
+FBBP_SBR_20260321,FBBP,26,Player_55,33,left_foot,off_target,0.03,,no,outside_box
+FBBP_SBR_20260321,FBBP,25,Player_61,36,right_foot,on_target,0.07,0.05,no,outside_box
+FBBP_SBR_20260321,FBBP,10,Player_33,38,right_foot,off_target,0.03,,no,outside_box
+FBBP_SBR_20260321,FBBP,20,Player_68,38,left_foot,on_target,0.03,0.05,yes,box
+FBBP_SBR_20260321,FBBP,19,Player_52,45,right_foot,blocked,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,10,Player_33,51,right_foot,off_target,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,10,Player_33,56,right_foot,on_target,0.02,0.07,no,outside_box
+FBBP_SBR_20260321,FBBP,9,Player_11,56,header_after_corner,blocked,0.08,,yes,box
+FBBP_SBR_20260321,FBBP,19,Player_52,65,right_foot,off_target,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,21,Player_43,68,right_foot,off_target,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,20,Player_68,71,right_foot,off_target,0.03,,no,outside_box
+FBBP_SBR_20260321,FBBP,10,Player_33,86,left_foot,off_target,0.01,,no,outside_box
+FBBP_SBR_20260321,FBBP,14,Player_16,90,header,off_target,0.14,,yes,box
+FBBP_SBR_20260321,FBBP,15,Player_05,90,header,goal,0.23,0.73,yes,box
+FBBP_SBR_20260321,Stade Briochin,21,Player_47,12,right_foot,goal,0.31,0.24,yes,box
+FBBP_SBR_20260321,Stade Briochin,22,Player_38,26,header_after_corner,on_target,0.07,0.29,yes,box
+FBBP_SBR_20260321,Stade Briochin,6,Player_24,49,right_foot,on_target,0.01,0.14,no,outside_box
+FBBP_SBR_20260321,Stade Briochin,22,Player_38,79,left_foot,off_target,0.01,,no,outside_box
+QRM_FBBP_20260228,Quevilly Rouen,21,Player_54,3,left_foot,blocked,0.01,,no,outside_box
+QRM_FBBP_20260228,Quevilly Rouen,14,Player_31,33,right_foot,on_target,0.04,0.02,no,outside_box
+QRM_FBBP_20260228,Quevilly Rouen,24,Player_63,35,left_foot,goal,0.07,0.59,yes,box
+QRM_FBBP_20260228,Quevilly Rouen,11,Player_39,38,right_foot,blocked,0.01,,no,outside_box
+QRM_FBBP_20260228,Quevilly Rouen,24,Player_63,41,right_foot,goal,0.15,0.63,yes,box
+QRM_FBBP_20260228,Quevilly Rouen,25,Player_35,61,left_foot,on_target,0.08,0.06,no,outside_box
+QRM_FBBP_20260228,FBBP,10,Player_33,7,right_foot,on_target,0.03,0.13,no,outside_box
+QRM_FBBP_20260228,FBBP,9,Player_11,7,header,goal,0.37,0.75,yes,box
+QRM_FBBP_20260228,FBBP,21,Player_43,38,right_foot,on_target,0.06,,no,outside_box
+QRM_FBBP_20260228,FBBP,19,Player_52,64,right_foot_after_corner,off_target,0.06,,no,outside_box
+QRM_FBBP_20260228,FBBP,14,Player_16,75,right_foot,off_target,0.09,,yes,box
+QRM_FBBP_20260228,FBBP,10,Player_33,76,left_foot,off_target,0.01,,no,outside_box
+QRM_FBBP_20260228,FBBP,20,Player_68,77,right_foot,off_target,0.08,,yes,box
+QRM_FBBP_20260228,FBBP,20,Player_68,78,right_foot,off_target,0.06,,yes,box
+QRM_FBBP_20260228,FBBP,25,Player_61,79,right_foot,off_target,0.01,,no,outside_box
+QRM_FBBP_20260228,FBBP,20,Player_68,86,right_foot,on_target,0.1,0.27,yes,box
+QRM_FBBP_20260228,FBBP,10,Player_33,90,right_foot_penalty,goal,0.76,0.81,yes,box
+VER_FBBP_20260313,Versailles,2,Player_37,16,left_foot,off_target,0.02,,no,outside_box
+VER_FBBP_20260313,Versailles,7,Player_70,16,header,on_target,0.22,0.43,yes,box
+VER_FBBP_20260313,Versailles,5,Player_60,20,header_after_corner,off_target,0.28,,yes,box
+VER_FBBP_20260313,Versailles,2,Player_37,23,header_after_corner,off_target,0.12,,yes,box
+VER_FBBP_20260313,Versailles,9,Player_14,24,header_after_corner,off_target,0.1,,yes,box
+VER_FBBP_20260313,Versailles,24,Player_07,28,right_foot,on_target,0.04,0.02,yes,box
+VER_FBBP_20260313,Versailles,29,Player_17,39,left_foot,on_target,0.02,0.02,yes,box
+VER_FBBP_20260313,Versailles,29,Player_17,43,left_foot_after_corner,off_target,0.01,,yes,box
+VER_FBBP_20260313,Versailles,7,Player_70,44,left_foot,off_target,0.03,,yes,box
+VER_FBBP_20260313,Versailles,7,Player_70,49,right_foot,off_target,0.15,,yes,box
+VER_FBBP_20260313,Versailles,7,Player_70,61,right_foot,off_target,0.02,,yes,box
+VER_FBBP_20260313,Versailles,11,Player_67,61,left_foot,on_target,0.22,0.33,yes,box
+VER_FBBP_20260313,Versailles,5,Player_60,67,header,off_target,0.02,,yes,box
+VER_FBBP_20260313,Versailles,7,Player_70,69,right_foot,goal,0.34,0.76,yes,box
+VER_FBBP_20260313,Versailles,27,Player_03,77,left_foot,off_target,0.01,,no,outside_box
+VER_FBBP_20260313,Versailles,11,Player_67,86,right_foot,on_target,0.08,0.61,yes,box
+VER_FBBP_20260313,Versailles,20,Player_74,93,right_foot,on_target,0.24,0.23,yes,box
+VER_FBBP_20260313,FBBP,21,Player_43,5,right_foot,off_target,0.01,,no,outside_box
+VER_FBBP_20260313,FBBP,9,Player_11,32,header_after_corner,off_target,0.04,,yes,box
+VER_FBBP_20260313,FBBP,25,Player_61,35,header,off_target,0.06,,yes,box
+VER_FBBP_20260313,FBBP,9,Player_11,42,header,off_target,0.07,,yes,box
+VER_FBBP_20260313,FBBP,25,Player_61,45,right_foot,off_target,0.06,,no,outside_box
+VER_FBBP_20260313,FBBP,9,Player_11,46,right_foot,blocked,0.05,,yes,box
+VER_FBBP_20260313,FBBP,28,Player_65,56,left_foot,off_target,0.01,,no,outside_box
+VER_FBBP_20260313,FBBP,10,Player_33,63,right_foot,blocked,0.02,,no,outside_box
+VER_FBBP_20260313,FBBP,20,Player_68,65,header,off_target,0.02,,yes,box
+VER_FBBP_20260313,FBBP,14,Player_16,81,header,off_target,0.05,,yes,box
+VER_FBBP_20260313,FBBP,9,Player_11,93,right_foot,off_target,0.02,,no,outside_box

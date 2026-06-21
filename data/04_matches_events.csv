@@ -1,0 +1,69 @@
+match_id,minute,event_type,team,player_number,player,player_replaced,detail
+FBBP_ORL_20260220,69,goal,Orleans,5.0,Player_52,,left_foot - xg_0.44
+FBBP_ORL_20260220,71,substitution,FBBP,17.0,Player_44,Player_05,on
+FBBP_ORL_20260220,72,red_card,FBBP,26.0,Player_55,,expulsion
+FBBP_ORL_20260220,74,substitution,FBBP,,,Player_15,off_after_vitre_red_card
+FBBP_ORL_20260220,75,yellow_card,Orleans,23.0,Player_19,,
+FBBP_ORL_20260220,76,substitution,FBBP,18.0,Player_12,Player_65,on
+FBBP_ORL_20260220,78,substitution,Orleans,29.0,Player_36,Player_19,on
+FBBP_ORL_20260220,78,red_card,Orleans,23.0,Player_19,,second_yellow
+FBBP_ORL_20260220,81,substitution,FBBP,29.0,Player_50,Player_61,on
+FBBP_ORL_20260220,83,goal,Orleans,19.0,Player_62,,right_foot - xg_0.18
+FBBP_ORL_20260220,86,goal,Orleans,22.0,Player_34,,right_foot - xg_0.25
+FBBP_ORL_20260220,90,substitution,Orleans,25.0,Player_28,Player_40,on
+FBBP_ROU_20260306,9,goal,Rouen,21.0,Player_01,,right_foot_after_corner - xg_0.40
+FBBP_ROU_20260306,60,substitution,FBBP,14.0,Player_16,Player_05,on
+FBBP_ROU_20260306,65,goal,FBBP,10.0,Player_33,,right_foot - xg_0.01
+FBBP_ROU_20260306,69,goal,FBBP,9.0,Player_11,,header - xg_0.15
+FBBP_ROU_20260306,73,substitution,Rouen,10.0,Player_41,Player_18,on
+FBBP_ROU_20260306,73,substitution,Rouen,14.0,Player_69,Player_25,on
+FBBP_ROU_20260306,75,red_card,FBBP,1.0,Player_73,,expulsion
+FBBP_ROU_20260306,77,substitution,FBBP,16.0,Player_06,,goalkeeper_on_after_boulhendi_red
+FBBP_ROU_20260306,85,substitution,FBBP,6.0,Player_21,Player_65,on
+FBBP_ROU_20260306,85,substitution,FBBP,27.0,Player_64,Player_61,on
+FBBP_ROU_20260306,85,substitution,FBBP,20.0,Player_68,,extra_sub_after_red_card
+FBBP_ROU_20260306,90,goal,FBBP,20.0,Player_68,,right_foot - xg_0.32
+FBBP_SBR_20260321,6,red_card,Stade Briochin,13.0,Player_02,,straight_red
+FBBP_SBR_20260321,12,goal,Stade Briochin,21.0,Player_47,,right_foot - xg_0.31
+FBBP_SBR_20260321,15,substitution,Stade Briochin,4.0,Player_10,Player_49,on_after_red_card
+FBBP_SBR_20260321,41,yellow_card,FBBP,5.0,Player_59,,
+FBBP_SBR_20260321,46,substitution,FBBP,15.0,Player_05,Player_65,on
+FBBP_SBR_20260321,63,substitution,Stade Briochin,14.0,Player_58,Player_71,on
+FBBP_SBR_20260321,63,substitution,Stade Briochin,29.0,Player_13,Player_47,on
+FBBP_SBR_20260321,71,substitution,FBBP,6.0,Player_21,Player_59,on
+FBBP_SBR_20260321,75,yellow_card,FBBP,9.0,Player_11,,
+FBBP_SBR_20260321,76,red_card,Stade Briochin,18.0,Player_51,,second_yellow
+FBBP_SBR_20260321,78,substitution,FBBP,29.0,Player_50,Player_15,on
+FBBP_SBR_20260321,78,substitution,FBBP,14.0,Player_16,Player_11,on
+FBBP_SBR_20260321,84,substitution,Stade Briochin,26.0,Player_27,Player_38,on
+FBBP_SBR_20260321,90,goal,FBBP,15.0,Player_05,,header - xg_0.23
+FBBP_SBR_20260321,90,red_card,FBBP,19.0,Player_52,,
+FBBP_SBR_20260321,90,red_card,Stade Briochin,26.0,Player_27,,
+QRM_FBBP_20260228,7,goal,FBBP,9.0,Player_11,,header - xg_0.37
+QRM_FBBP_20260228,35,goal,Quevilly Rouen,24.0,Player_63,,left_foot - xg_0.07
+QRM_FBBP_20260228,41,goal,Quevilly Rouen,24.0,Player_63,,right_foot - xg_0.15
+QRM_FBBP_20260228,48,yellow_card,FBBP,15.0,Player_05,,
+QRM_FBBP_20260228,57,yellow_card,FBBP,25.0,Player_61,,
+QRM_FBBP_20260228,64,substitution,Quevilly Rouen,22.0,Player_42,Player_35,on
+QRM_FBBP_20260228,64,substitution,FBBP,14.0,Player_16,Player_05,on
+QRM_FBBP_20260228,64,substitution,FBBP,20.0,Player_68,Player_65,on
+QRM_FBBP_20260228,72,yellow_card,FBBP,19.0,Player_52,,
+QRM_FBBP_20260228,80,substitution,Quevilly Rouen,18.0,Player_32,Player_42,on
+QRM_FBBP_20260228,80,substitution,Quevilly Rouen,17.0,Player_09,Player_39,on
+QRM_FBBP_20260228,84,substitution,FBBP,6.0,Player_21,Player_61,on
+QRM_FBBP_20260228,84,substitution,FBBP,27.0,Player_64,Player_50,on
+QRM_FBBP_20260228,90,goal,FBBP,10.0,Player_33,,penalty - xg_0.76
+QRM_FBBP_20260228,90,substitution,Quevilly Rouen,8.0,Player_53,Player_29,on
+VER_FBBP_20260313,37,yellow_card,FBBP,10.0,Player_33,,foul
+VER_FBBP_20260313,41,yellow_card,Versailles,24.0,Player_07,,foul
+VER_FBBP_20260313,55,yellow_card,Versailles,5.0,Player_60,,foul
+VER_FBBP_20260313,58,yellow_card,Versailles,7.0,Player_70,,foul
+VER_FBBP_20260313,62,substitution,Versailles,12.0,Player_48,Player_37,on
+VER_FBBP_20260313,62,substitution,Versailles,27.0,Player_03,Player_07,on
+VER_FBBP_20260313,68,substitution,Versailles,20.0,Player_74,Player_14,on
+VER_FBBP_20260313,69,goal,Versailles,7.0,Player_70,,right_foot
+VER_FBBP_20260313,74,substitution,FBBP,14.0,Player_16,Player_65,on
+VER_FBBP_20260313,80,substitution,FBBP,18.0,Player_12,Player_64,on
+VER_FBBP_20260313,90,substitution,Versailles,23.0,Player_66,Player_67,on
+VER_FBBP_20260313,90,substitution,Versailles,17.0,Player_04,Player_70,on
+VER_FBBP_20260313,91,substitution,FBBP,13.0,Player_45,Player_50,on

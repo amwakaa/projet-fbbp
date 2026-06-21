@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.DS_Store
+# Ne jamais committer la table de correspondance d'anonymisation
+anon_mapping*.csv
